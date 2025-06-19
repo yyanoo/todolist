@@ -1,0 +1,12 @@
+/*進度條背景*/
+#custom-progress {
+  background-color: #fcfbff;
+}
+/*進度條顔色*/
+#custom-progress-bar {
+  background-color: #4b4ba0;
+}
+
+.progress-bar-text {
+  margin: 0;
+}

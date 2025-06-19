@@ -1,0 +1,56 @@
+.check-box {
+  width: 1.2em !important;
+  height: 1.2em !important;
+  margin: 2.5px 10px 0 0;
+}
+.form-check-input:focus {
+  border-color: #4b4ba080 !important;
+  box-shadow: none !important;
+}
+.form-check-input:checked {
+  background-color: #4b4ba0 !important;
+  border-color: #4b4ba080 !important;
+}
+
+.list-box {
+  height: 350px;
+}
+
+.list-button {
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background-color: #fcfbff !important;
+}
+
+.btn {
+  --bs-btn-padding-y: 0.18rem !important;
+}
+
+.box {
+  background-color: #fcfbff;
+  height: 80px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-left: 5px solid #4b4ba0;
+  border-radius: 5px 0 0 5px;
+}
+
+/* 手機限制表單字數過長換行 */
+
+@media (max-width: 768px) {
+  .label-box {
+    max-width: 286px;
+    word-wrap: break-word;
+  }
+  .check-box {
+    margin: 2.5px 5px 0px -5px;
+  }
+  .box {
+    padding: 10px;
+  }
+  .list-button {
+    transform: translateX(5px);
+  }
+}
