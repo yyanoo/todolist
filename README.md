@@ -5,7 +5,6 @@
 ## 🛠 技術棧
 
 - [React](https://react.dev/)
-- [Vite](https://vitejs.dev/)
   
 ---
 
