@@ -14,5 +14,8 @@
 # 安裝相依套件
 npm install
 
+# 進入資料夾
+cd todolist
+
 # 開發模式（啟動本地伺服器）
 npm run dev
