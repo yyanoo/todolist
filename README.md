@@ -13,7 +13,7 @@
 ```bash
 
 # 進入資料夾
-cd todolist
+cd todolist-main
 
 # 安裝相依套件
 npm install
